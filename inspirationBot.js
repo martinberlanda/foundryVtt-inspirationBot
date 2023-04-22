@@ -13,7 +13,7 @@ players.forEach(player => {
 
     // Get the "inspiration" field value and add it to the chat message
     let inspirationValue = character.system.attributes.inspiration;
-    let message = inspirationValue ? "Si" : "No";
+    let message = inspirationValue ? "Yes" : "No";
     chatMessage += `${character.name}: ${message}<br>`;
   }
 });
